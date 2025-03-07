@@ -4,6 +4,7 @@ import axios from 'axios';
 
 const RoomsListScreen = ({ navigation }) => {
   const [rooms, setRooms] = useState([]);
+  
 
   useEffect(() => {
     fetchRooms();
